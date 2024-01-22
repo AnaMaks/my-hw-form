@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container fc-white">
+      <div class="sidebar">
+        <div class="sidemenu">
+          <div class="sidemenu-switch">
+            <input id="switch" type="checkbox">
+            <label for="switch">
+              <span>Вход</span>
+              <span>Регистрация</span>
+            </label>
+          </div>
+          <div class="loginform">
+            <h1>Вход</h1>
+            <form action="login">
+              <input class="email fc-white" type="email" placeholder="Введите E-mail">
+              <input class="password fc-white" type="password" placeholder="Пароль">
+              <div class="flex">
+                <div class="custom-checkbox">
+                  <input id="remember-check" type="checkbox">
+                  <label for="remember-check">Запомнить меня</label>
+                </div>
+                <a class="forgrotten-pass fc-green" href="#">Забыли пароль?</a> 
+              </div>
+              <button class="btn fc-white">Войти</button>
+            </form>
+            <p class="paragraf fc-green">Еще нет аккаунта? </p>
+            <a class="log-in fc-white" href="#">Зарегистрироваться</a>
+            <p class="paragraf fc-green mrgtop-30 ">Или войдите через</p>
+            <div class="socialmedia">
+              <ul class="social-links">
+                <li>
+                  <a class="displblock" href="#">
+                    <svg class="icons-sm">
+                    <use href="img/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="displblock" href="#">
+                    <svg class="icons-sm">
+                    <use href="img/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="displblock" href="#">
+                    <svg class="icons-sm">
+                    <use href="img/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
